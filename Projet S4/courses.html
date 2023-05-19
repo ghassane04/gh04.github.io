@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to our marketplace</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="courses.css">
+</head>
+<body>
+	<div class="nav1">
+        <a href="webs4home.html"><b>Sa</b> Courses</a>
+    </div>
+      <nav>
+        <ul>
+          <li class="fa-solid fa-house"><a href="courses.html">Courses</a></li>
+          <li class="fa-solid"><a href="#Aboutus">About</a></li>
+          <li class="fa-solid fa-phone"><a href="#contactus">Contact</a></li>
+          <li class="fa-solid fa-user"><a href="signup1.html">Login</a></li>
+        </ul>
+      </nav>
+      <article>
+        <div class="allpage">
+            <div class="contfiltre">
+                <input id="searchbar" type="text" name="search" placeholder="Search courses..">
+            <div class="categories">
+                <h2 style="color:yellow">Categories :</h2>
+                <div class="p">
+                    <ul>
+                        <li class="li"><a onclick=All()>ALL</a></li>
+                        <li class="li"><a onclick=Html()>HTML</a></li>
+                        <li class="li"><a onclick=Css()>Css</a></li>
+                        <li class="li"><a onclick=Js()>JS</a></li>
+                        <li class="li"><a onclick=Php()>PHP</a></li>
+                      </ul>
+                </div>
+            </div>
+            <div class="prix">
+                <h2 style="margin-bottom:10px ; color: yellow;">Value :</h2>
+                <input type="text" placeholder="Value :"/>
+            </div>
+            </div>
+            <div class="container-article">
+                <div id="cardContainer" style="display: flex;
+                padding-top:40px;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;">      
+                </div>
+                <div class="container-article">
+                    <div id="cardContainer2" style="display: none;
+                    padding-top:40px;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-items: center;">      
+                    </div>
+                    <div class="container-article">
+                        <div id="cardContainer3" style="display: none;
+                        padding-top:40px;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        align-items: center;">      
+                        </div>
+                        <div class="container-article">
+                            <div id="cardContainer4" style="display: none;
+                            padding-top:40px;
+                            flex-direction: row;
+                            flex-wrap: wrap;
+                            justify-content: space-between;
+                            align-items: center;">      
+                            </div>
+                            <div class="container-article">
+                                <div id="cardContainer5" style="display: none;
+                                padding-top:40px;
+                                flex-direction: row;
+                                flex-wrap: wrap;
+                                justify-content: space-between;
+                                align-items: center;">      
+                                </div>
+                                <div class="container-article">
+                                    <div id="cardContainer6" style="display: none;
+                                    padding-top:40px;
+                                    flex-direction: row;
+                                    flex-wrap: wrap;
+                                    justify-content: space-between;
+                                    align-items: center;">      
+                                    </div>
+            </div>
+        </div>
+        </article>
+
+
+    <footer>
+    <div class="contfoot">
+        <div class="courses">
+            <h4 style="text-decoration:underline;">Courses </h4>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>Javascript</p>
+            <p>PHP</p>
+        </div>
+        <div class="whyus">
+            <h4 id="Aboutus"style="text-decoration:underline;">About Us?</h4>
+            <p>At our e-learning platform, we are driven by a passion for education and a commitment to providing an exceptional learning experience. With our diverse range of courses, flexible learning options, and personalized approach, we strive to empower learners of all backgrounds to acquire new skills, expand their knowledge, and achieve their educational goals. We believe that education should be accessible, engaging, and adaptable to individual needs, and we are dedicated to leveraging innovative technology to deliver a cutting-edge learning experience. Join us on this exciting journey of lifelong learning and unlock your full potential.</p>
+        </div>
+        <div id="contactus" class="contactus">
+            <h4 style="text-decoration:underline;">Contact Us :</h4>
+            <p>Email : onlinecourses@courses.com</p>
+            <p>Phone : +212*********</p>
+            <button id="btn" onclick="window.location.href = 'Contact.html'">Comment</button>
+        </div>
+    </div>
+    </footer>
+    <p class="sign">Copyright &copy; 2022-2023,  made by <strong style="color: rgb(20, 107, 238); font-family:cursive; font-size: 20px;">Ghassane & Ali </strong>- 2AP - Groupe : 5 .</p>
+<script src="courses.js"></script>
+</body>
+</html>

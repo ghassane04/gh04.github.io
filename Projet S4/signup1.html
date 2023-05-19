@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to our marketplace</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="stylesignup.css">
+</head>
+<body>
+    <div class="nav1">
+        <a href="webs4home.html"><b>Sa</b> Courses</a>
+    </div>
+      <nav>
+        <ul>
+          <li class="fa-solid fa-house"><a href="signup1.html">Courses</a></li>
+          <li class="fa-solid"><a href="#Aboutus">About</a></li>
+          <li class="fa-solid fa-phone"><a href="#contactus">Contact</a></li>
+          <li class="fa-solid fa-user"><a href="signup1.html">Login</a></li>
+        </ul>
+      </nav>
+      <article>
+        <div class="container">
+            <div id="signup" class="form">
+                <h1>Sign Up</h1>
+                <div class="form-field">
+                    <label for="username" style="text-align: center;">Username :</label>
+                    <input type="text" name="username" id="username" autocomplete="off" placeholder="Enter your username">
+                    <span id="sp1" style="color: red;"></span><br>
+                </div>
+    
+                <div class="form-field">
+                    <label for="email" style="text-align: center;">E-mail :</label>
+                    <input type="email" name="email" id="email" autocomplete="off" placeholder="Enter your email address">
+                    <span id="sp2" style="color: red;"></span><br>
+                </div>
+    
+                <div class="form-field">
+                    <label for="password" style="text-align: center;">Password :</label>
+                    <input type="password" name="password" id="password" autocomplete="off" placeholder="Enter your password">
+                    <span id="sp3" style="color: red;"></span><br>
+                </div>
+    
+                <div class="form-field">
+                    <label for="confirm-password" style="text-align: center;">Confirm Password :</label>
+                    <input type="password" name="confirm-password" id="confirm-password" autocomplete="off" placeholder="Retape your password">
+                <span id="sp4" style="color: red;"></span><br>
+                </div>
+                <pre>  <input type="checkbox" onclick="showPass2()">    Show Password</pre>
+                <div class="form-field">
+                    <button class="btn" type="submit" onclick="return sign()"><i class="fa-solid fa-user" class="iconlog"></i>  Sign Up </button>
+                </div>
+            </div>
+            <div  id="login" class="form">
+                <h1>Log In</h1>
+                <div class="form-field">
+                    <label for="username" style="text-align: center;">Username :</label>
+                    <input type="text" name="username" id="username1" autocomplete="off" placeholder="Enter your username">
+                    <span id="s1" style="color: red;"></span><br>
+                </div>
+    
+                <div class="form-field">
+                    <label for="password" style="text-align: center;">Password :</label>
+                    <input type="password" name="password" id="password1" autocomplete="off" placeholder="Enter your password">
+                    <span id="s2" style="color: red;"></span><br>
+                </div>
+                <pre>  <input type="checkbox" onclick="showPass1()">    Show Password</pre>
+                <div class="form-field">
+                    <button class="btn button1" onclick="return login()">  Login</button>
+                    <button class="btn button1" onclick="display2()"> Sign up</button>
+                </div>
+            </div>
+            <div class="contimg">
+                <div class="imgsign"> <img src="sign.jpeg" alt="signup" width="740px" height="660px" style="border-radius: 30px;"></div>
+                </div>
+            </div>
+    </article>
+    <footer>
+        <div class="contfoot">
+            <div class="courses">
+                <h4 style="text-decoration:underline;">Courses </h4>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>Javascript</p>
+                <p>PHP</p>
+            </div>
+            <div class="whyus">
+                <h4 id="Aboutus"style="text-decoration:underline;">About Us?</h4>
+                <p>At our e-learning platform, we are driven by a passion for education and a commitment to providing an exceptional learning experience. With our diverse range of courses, flexible learning options, and personalized approach, we strive to empower learners of all backgrounds to acquire new skills, expand their knowledge, and achieve their educational goals. We believe that education should be accessible, engaging, and adaptable to individual needs, and we are dedicated to leveraging innovative technology to deliver a cutting-edge learning experience. Join us on this exciting journey of lifelong learning and unlock your full potential.</p>
+            </div>
+            <div id="contactus" class="contactus">
+                <h4 style="text-decoration:underline;">Contact Us :</h4>
+                <p>Email : onlinecourses@courses.com</p>
+                <p>Phone : +212*********</p>
+                <button id="btn" onclick="window.location.href = 'Contact.html'">Comment</button>
+            </div>
+        </div>
+        </footer>
+            <p class="sign">Copyright &copy; 2022-2023,  made by <strong style="color: rgb(20, 107, 238); font-family:cursive; font-size: 20px;">Ghassane & Ali </strong>- 2AP - Groupe : 5 .</p>
+      <script src="loginscript.js"></script>
+</html>

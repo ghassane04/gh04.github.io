@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to our marketplace</title>
+    <link rel="stylesheet" href="stylehome.css">
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="nav1">
+        <a href="webs4home.html"><b>Sa</b> Courses</a>
+    </div>
+      <nav>
+        <ul>
+          <li class="fa-solid fa-house"><a href="signup1.html">Courses</a></li>
+          <li class="fa-solid"><a href="#Aboutus">About</a></li>
+          <li class="fa-solid fa-phone"><a href="#contactus">Contact</a></li>
+          <li class="fa-solid fa-user"><a href="signup1.html">Login</a></li>
+        </ul>
+      </nav>
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+        <img class="w3-image" style="position: relative;"  src="home.jpeg" alt="Courses" width="1500" height="700">
+        <div class="w3-display-middle w3-margin-top w3-center">
+          <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Sa</b></span> <span class="w3-hide-small w3-text-light-grey">Courses</span></h1>
+        </div>
+    </header>
+    <article>
+        <div>
+            <h3 style="color:blue;" class="titre"><i class="fa fa-graduation-cap"></i>  Courses :</h3><br>
+        <div class="containerrandom">
+            <div>
+              <div class="im"><img id="leftItemImg" src="" alt="" width="100%" height="100%" style="border-radius: 25px 25px 2px;"/></div>
+              <div><h3 id="leftItemH2" class="card"></h3></div>
+              <div id="price" class="prix"></div>
+            </div>
+            <div>
+              <div class="im"><img id="centerItemImg" src="" alt="" width="100%" height="100%" style="border-radius: 25px 25px 2px;"/></div>
+              <div><h3 id="centerItemH2"class="card"></h3></div>
+              <div id="price2" class="prix"></div>
+            </div>
+            <div>
+              <div class="im"><img id="rightItemImg" src="" alt="" width="100%" height="100%" style="border-radius: 25px 25px 2px;"/></div>
+              <div><h3 id="rightItemH2" class="card"></h3></div>
+              <div id="price3" class="prix"></div>
+            </div>
+        </div>
+        <button class="btn2" onclick="window.location.href = 'signup1.html'">All courses <i class="fa fa-graduation-cap"></i></button>
+    </div>
+    </article>
+    <footer>
+      <div class="contfoot">
+        <div class="courses">
+          <h4 style="text-decoration:underline;">Courses </h4>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>Javascript</p>
+            <p>PHP</p>
+        </div>
+        <div class="whyus">
+          <h4 id="Aboutus" style="text-decoration:underline;">About Us?</h4>
+            <p>At our e-learning platform, we are driven by a passion for education and a commitment to providing an exceptional learning experience. With our diverse range of courses, flexible learning options, and personalized approach, we strive to empower learners of all backgrounds to acquire new skills, expand their knowledge, and achieve their educational goals. We believe that education should be accessible, engaging, and adaptable to individual needs, and we are dedicated to leveraging innovative technology to deliver a cutting-edge learning experience. Join us on this exciting journey of lifelong learning and unlock your full potential.</p>
+        </div>
+        <div id="contactus" class="contactus">
+          <h4 style="text-decoration:underline;">Contact Us :</h4>
+            <p>Email : onlinecourses@courses.com</p>
+            <p>Phone : +212*********</p>
+            <button id="btn" onclick="window.location.href = 'Contact.html'">Comment</button>
+        </div>
+      </div>
+    </footer>
+    <p class="sign">Copyright &copy; 2022-2023,  made by <strong style="color: rgb(20, 107, 238); font-family:cursive; font-size: 20px;">Ghassane & Ali </strong>- 2AP - Groupe : 5 .</p>
+    <script src="scripthome.js"></script>
+</body>
+</html>
