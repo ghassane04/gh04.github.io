@@ -113,7 +113,5 @@ function updaCourInfor() {
   image2.src = courses[random3].image;
   image3.src = courses[random2].image;
   
-  image1.setAttribute('class', 'test');
 }
-
 setInterval(updaCourInfor, 1500);
